@@ -250,12 +250,10 @@ input, select, textarea {
 	  }
 
 	  .tiles article {
-		width: calc(33.333333% - 1.25em)!important;
+		width: calc(22% - 1.25em)!important;
 		margin: 1.25em 0 0 1.25em;
 	}
-	.tiles article.content{
-		display: hide!important;
-	}
+	
 	.tiles h2, h3, h4, h5, h6 {
 		font-weight: 200;
 		font-size: 15px;
@@ -265,6 +263,45 @@ input, select, textarea {
 	.tiles a{
 		
 		font-size: 10px;
+		line-height: 1;
+	}
+
+ }
+
+
+ @media screen and (max-width: 360px) {
+	.sidebar {
+		width: 0px!important;
+	}
+
+	#main {
+		padding: 0px;
+		margin-left: 0px;
+		transition: margin-left 0.5s;
+	  }
+
+	  .tiles {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		padding: 5px;
+		background-color: #e1cbf067;
+	  }
+
+	  .tiles article {
+		width: calc(33.333333% - 1.25em)!important;
+		margin: 1.25em 0 0 1.25em;
+	}
+	
+	.tiles h2, h3, h4, h5, h6 {
+		font-weight: 200;
+		font-size: 12px;
+		line-height: 1;
+	}
+
+	.tiles a{
+		
+		font-size: 8px;
 		line-height: 1;
 	}
 
