@@ -229,6 +229,18 @@ input, select, textarea {
 	  font-size: 18px;
 	}
   }
+
+  @media screen and (max-width: 500px) {
+	.sidebar {
+		width: 0.1px;
+	}
+
+	#main {
+		padding: 0.1px;
+		margin-left: 0.1px;
+		transition: margin-left 0.5s;
+	  }
+ }
 /*Updated*/  
 
 
@@ -265,7 +277,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		border-bottom: dotted 1px rgba(88, 88, 88, 0);
 	}
 
 		a:hover {
