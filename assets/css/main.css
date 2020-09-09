@@ -289,7 +289,7 @@ input, select, textarea {
 	  }
 
 	  .tiles article {
-		width: calc(33.333333% - 1.25em)!important;
+		width: calc(33.333333%)!important;
 		margin: 1.25em 0 0 1.25em;
 	}
 	
