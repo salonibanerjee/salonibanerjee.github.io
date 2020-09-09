@@ -250,8 +250,11 @@ input, select, textarea {
 	  }
 
 	  .tiles article {
-		width: calc(22% - 1.25em)!important;
+		width: calc(33.333333% - 1.25em)!important;
 		margin: 1.25em 0 0 1.25em;
+	}
+	.tiles article.content{
+		display: hide!important;
 	}
 	.tiles h2, h3, h4, h5, h6 {
 		font-weight: 200;
@@ -260,6 +263,7 @@ input, select, textarea {
 	}
 
 	.tiles a{
+		
 		font-size: 10px;
 		line-height: 1;
 	}
