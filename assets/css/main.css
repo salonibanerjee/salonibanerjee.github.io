@@ -246,7 +246,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		padding: 0px;
-		background-color: #a06dc28c;
+		background-color: rgb(212, 215, 250);
 	  }
 
 	  .tiles article {
@@ -285,7 +285,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		padding: 0px;
-		background-color: #a06dc28c;
+		background-color: rgb(212, 215, 250);
 	  }
 
 	  .tiles article {
