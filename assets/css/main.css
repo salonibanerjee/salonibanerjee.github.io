@@ -230,7 +230,7 @@ input, select, textarea {
 	}
   }
 
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 500px) {
 	.sidebar {
 		width: 0px!important;
 	}
