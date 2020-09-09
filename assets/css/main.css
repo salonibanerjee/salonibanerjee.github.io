@@ -245,8 +245,8 @@ input, select, textarea {
 		position: -webkit-sticky;
 		position: sticky;
 		top: 0;
-		padding: 5px;
-		background-color: #e1cbf067;
+		padding: 0px;
+		background-color: #a06dc28c;
 	  }
 
 	  .tiles article {
