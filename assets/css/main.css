@@ -232,7 +232,7 @@ input, select, textarea {
 
   @media screen and (max-width: 500px) {
 	.sidebar {
-		width: 0px;
+		width: 0px!important;
 	}
 
 	#main {
@@ -250,22 +250,22 @@ input, select, textarea {
 	  }
 
 	  .tiles article {
-		width: calc(25% - 1.25em)!important;
+		width: calc(22% - 1.25em)!important;
 		margin: 1.25em 0 0 1.25em;
 	}
 	.tiles h2, h3, h4, h5, h6 {
-		font-weight: 450;
+		font-weight: 200;
 		line-height: 1;
 	}
 
 	.tiles a{
-		font-weight: 300;
+		font-weight: 50;
 		line-height: 1;
 	}
 
  }
 
- 
+
 /*Updated*/  
 
 
