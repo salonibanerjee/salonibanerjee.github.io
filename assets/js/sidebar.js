@@ -1,11 +1,7 @@
 var mini = true;
 
 function toggleSidebar() {
-
-  /*if((document.getElementById("mySidebar").style.width == "0.1px") OR (document.getElementById("mySidebar").style.width == "200px"))
-    togglesmolSidebar();
-
-  else*/ if (mini) {
+  if (mini) {
     console.log("opening sidebar");
     document.getElementById("mySidebar").style.width = "200px";
     document.getElementById("main").style.marginLeft = "200px";
