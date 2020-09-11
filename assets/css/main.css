@@ -180,6 +180,7 @@ input, select, textarea {
 	background-image: linear-gradient(rgb(0, 0, 0),rgb(15, 0, 29), rgb(45, 2, 58));
 	transition: 0.5s;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	padding-top: 10px;
 	white-space: nowrap;
   }
