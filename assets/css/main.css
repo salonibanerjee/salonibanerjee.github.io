@@ -230,7 +230,7 @@ input, select, textarea {
 	#header nav {
 		position: fixed;
 		right: 2em;
-		top: 4em!important;
+		top: 3.5em!important;
 		z-index: 10000;
 	}
 
@@ -257,7 +257,7 @@ input, select, textarea {
 	  #header nav {
 		position: fixed;
 		right: 2em;
-		top: 4em!important;
+		top: 3.5em!important;
 		z-index: 10000;
 	}
 
@@ -329,7 +329,7 @@ input, select, textarea {
 	  #header nav {
 		position: fixed;
 		right: 2em;
-		top: 4em!important;
+		top: 3.5em!important;
 		z-index: 10000;
 	}
 
@@ -3146,7 +3146,7 @@ input, select, textarea {
 		#header nav {
 			position: fixed;
 			right: 2em;
-			top: 4em;
+			top: 3.5em;
 			z-index: 10000;
 		}
 
@@ -3237,7 +3237,7 @@ input, select, textarea {
 
 				#header nav {
 					right: 2em;
-					top: 4em;
+					top: 3.5em;
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
@@ -3451,7 +3451,7 @@ input, select, textarea {
 	#footer {
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
-		background-image: linear-gradient(rgb(175, 255, 248), rgb(107, 248, 201));
+		background-image: linear-gradient(rgb(119, 224, 151), rgb(4, 252, 169));
 	}
 
 		#footer > .inner {
