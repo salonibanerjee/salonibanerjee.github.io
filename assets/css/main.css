@@ -321,13 +321,14 @@ input, select, textarea {
 		position: -webkit-sticky;
 		position: sticky;
 		top: 0;
+		left: 0;
 		padding: 0px;
 		background-color: rgb(212, 215, 250,0.9);
 	  }
 
 	  .tiles article {
 		width: calc(15% - 1em)!important;
-		margin: 0em 0 0 0em;
+		margin: 0em 0 0 2em;
 	}
 
 	.tiles article > .image {
