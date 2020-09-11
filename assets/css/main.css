@@ -226,6 +226,14 @@ input, select, textarea {
 	.sidebar {
 	  padding-top: 10px;
 	}
+
+	#header nav {
+		position: fixed;
+		right: 2em;
+		top: 5em!important;
+		z-index: 10000;
+	}
+
 	.sidebar a {
 	  font-size: 18px;
 	}
@@ -245,6 +253,13 @@ input, select, textarea {
 		margin-left: 0px!important;
 		transition: margin-left 0.5s;
 	  }
+
+	  #header nav {
+		position: fixed;
+		right: 2em;
+		top: 5em!important;
+		z-index: 10000;
+	}
 
 	  .tiles {
 		position: -webkit-sticky;
@@ -310,6 +325,13 @@ input, select, textarea {
 		margin-left: 0px!important;
 		transition: margin-left 0.5s;
 	  }
+
+	  #header nav {
+		position: fixed;
+		right: 2em;
+		top: 5em!important;
+		z-index: 10000;
+	}
 
 	  .tiles {
 		position: -webkit-sticky;
@@ -3214,8 +3236,8 @@ input, select, textarea {
 			}
 
 				#header nav {
-					right: 0.5em;
-					top: 0.5em;
+					right: 2em;
+					top: 2em;
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
