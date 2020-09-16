@@ -1,1 +1,1 @@
-Hi, This is the first version of my Portfolio webpage, built using HTML5, CSS and JavaScript
+<p align="center">Hi, This is my Portfolio website, designed with <br/>HTML5  |  CSS  | JavaScript</p>
