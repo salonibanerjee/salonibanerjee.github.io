@@ -2,4 +2,4 @@
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/salonibanerjee/salonibanerjee.github.io/master/images/i-portfolio.png"/></p>
-<p align="center">Hi, I designed this website with<br/>HTML5  |  CSS  | JavaScript</p>
+<p align="center">Hi, I designed this website with<br/>HTML5  |  CSS 3 | JavaScript</p>

@@ -9,24 +9,15 @@ html,div,p {
 	color:rgb(0, 0, 0);
 }
 
-#leftbox { 
-	float:left;  
-	
-	width:33.333333%; 
-	
+#work1{ 
+	float:left;		
+	width:50%!important; 
 } 
-#middlebox{ 
-	float:left;  
-	
-	width:33.333333%; 
-	
+#work2{ 
+	float:right;		
+	width:50%!important; 
 } 
-#rightbox{ 
-	float:right; 
-	
-	width:33.333333%; 
-	
-} 
+
 
 /*Arrow bounce*/
 
@@ -82,7 +73,7 @@ section, summary, time, mark, audio, video {
 }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, {
 	display: block;}
 
 body {
@@ -143,6 +134,29 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+
+		
+	#school1{ 
+		float:left;		
+		width:100%; 
+	} 
+	#school2{ 
+		float:left;	
+		width:100%; 
+	} 
+	#school3{ 
+		float:left;	
+		width:100%; 	
+	} 
+
+	#work1{ 
+		float:left;		
+		width:100%!important; 
+	} 
+	#work2{ 
+		float:left;		
+		width:100%!important; 
+	} 
 
 	}
 
@@ -237,6 +251,18 @@ input, select, textarea {
 	.sidebar a {
 	  font-size: 18px;
 	}
+	#school1{ 
+		/*float:left;*/		
+		width:100% !important;
+	} 
+	#school2{ 
+		/*float:left;*/	
+		width:100%!important;
+	} 
+	#school3{ 
+		/*float:left;*/	
+		width:100%!important;	
+	} 
   }
 
   @media screen and (max-width: 500px) {
@@ -307,6 +333,19 @@ input, select, textarea {
 		font-size: 10px;
 		line-height: 1;
 	}
+
+	#school1{ 
+		/*float:left;*/		
+		width:100% !important;
+	} 
+	#school2{ 
+		/*float:left;*/	
+		width:100%!important;
+	} 
+	#school3{ 
+		/*float:left;*/	
+		width:100%!important;	
+	} 
 
  }
 
@@ -383,6 +422,28 @@ input, select, textarea {
 		line-height: 1;
 	}
 
+	#school1{ 
+		float:left;		
+		width:100%; 
+	} 
+	#school2{ 
+		float:left;	
+		width:100%; 
+	} 
+	#school3{ 
+		float:left;	
+		width:100%; 	
+	} 
+
+	#work1{ 
+		float:left;		
+		width:100%!important; 
+	} 
+	#work2{ 
+		float:left;		
+		width:100%!important; 
+	} 
+
  }
 
 
@@ -404,6 +465,18 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
+			#school1{ 
+				float:left;		
+				width:33.333%; 
+			} 
+			#school2{ 
+				float:left;	
+				width:33.333%; 
+			} 
+			#school3{ 
+				float:right;	
+				width:33.333%; 	
+			} 
 
 		}
 
@@ -477,6 +550,8 @@ input, select, textarea {
 				letter-spacing: 0.05em;
 			}
 
+			
+
 		}
 
 	h2, h3, h4, h5, h6 {
@@ -516,6 +591,8 @@ input, select, textarea {
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
 		}
+
+		
 
 	}
 
@@ -3062,6 +3139,15 @@ input, select, textarea {
 					margin: 1.25em 0 0 1.25em;
 				}
 
+				#work1{ 
+					float:left;		
+					width:50%!important; 
+				} 
+				#work2{ 
+					float:left;		
+					width:50%!important; 
+				} 
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3526,6 +3612,15 @@ input, select, textarea {
 					margin-left: 1.25em;
 				}
 
+				#work1{ 
+					float:left;		
+					width:50%!important; 
+				} 
+				#work2{ 
+					float:left;		
+					width:50%!important; 
+				} 
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3830,6 +3925,27 @@ input, select, textarea {
 				margin: 1.25em 0 0 1.25em;
 			}
 
+			#school1{ 
+				float:left;		
+				width:33.333%; 
+			} 
+			#school2{ 
+				float:left;	
+				width:33.333%; 
+			} 
+			#school3{ 
+				float:left;	
+				width:33.333%; 	
+			} 
+
+			#work1{ 
+				float:left;		
+				width:50%!important; 
+			} 
+			#work2{ 
+				float:left;		
+				width:50%!important; 
+			} 
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3841,6 +3957,19 @@ input, select, textarea {
 			.tiles_acti article {
 				width: calc(33.33333% - 2.5em);
 				margin: 2.5em 0 0 2.5em;
+			}
+
+			#school1{ 
+				float:left;		
+				width:50%; 
+			} 
+			#school2{ 
+				float:left;	
+				width:50%; 
+			} 
+			#school3{ 
+				float:left;	
+				width:100%; 	
 			}
 
 	}
@@ -3862,7 +3991,27 @@ input, select, textarea {
 					-ms-transform: scale(1.0);
 					transform: scale(1.0);
 				}
+				#school1{ 
+					float:left;		
+					width:50%; 
+				} 
+				#school2{ 
+					float:left;	
+					width:50%; 
+				} 
+				#school3{ 
+					float:left;	
+					width:100%; 	
+				}
 
+				#work1{ 
+					float:left;		
+					width:100%!important; 
+				} 
+				#work2{ 
+					float:left;		
+					width:100%!important; 
+				} 
 	}
 
 	@media screen and (max-width: 480px) {
@@ -3876,6 +4025,27 @@ input, select, textarea {
 				margin: 1.25em 0 0 1.25em;
 			}
 
+			#school1{ 
+				float:left;		
+				width:100%; 
+			} 
+			#school2{ 
+				float:left;	
+				width:100%; 
+			} 
+			#school3{ 
+				float:left;	
+				width:100%; 	
+			} 
+
+			#work1{ 
+				float:left;		
+				width:100%!important; 
+			} 
+			#work2{ 
+				float:left;		
+				width:100%!important; 
+			} 
 	}
 
 
