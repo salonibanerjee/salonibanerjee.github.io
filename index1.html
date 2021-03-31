@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        IT Lab
+    </title>
+    
+    <link rel="stylesheet" href="main1.css"> <!--external/linked css-->
+
+    <style> /*internal/embedded css */
+
+        body {
+            background-color: rgb(255, 205, 247);
+            counter-reset: xyz;
+        }
+
+        h1 {            /* SIMPLE : h1=selector : color=attribute/property : black=value */
+            color: black;
+        }
+
+        h2, h3, h4 {    /* COMPOSITE */
+            color: rgb(196, 40, 53);
+        } 
+        
+        p {
+            display: block;
+            background-color: rgb(255, 255, 115);
+            padding: 20px;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+    <center>        
+    <h1 style="color:rgb(0, 16, 156);">ASSIGNMENT 1</h1>   <!--inline overrides internal/embedded style-->
+    <h2>MCKV Institute of Engineering</h2>
+    <h3>Computer Science and Engineering</h3>
+    <h4>Saloni Banerjee</h4>
+    <h5>CSE/2017/037</h5>
+    <h6>Internet Technology Lab CS 795A</h6>
+
+    </center>
+    
+<hr width="50%"/>
+<div class="div1" id="first">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p align="center">
+        "To be born again," sang Gibreel Farishta tumbling from the heavens, "first
+    you have to die. Hoji! Hoji! To land upon the bosomy earth, first one needs
+    to fly. Tat-taa! Taka-thun! How to ever smile again, if first you won't cry?
+    How to win the darling's love, mister, without a sigh?     
+    <br/><br/>
+    We are <del>out of</del> <ins>in stock</ins>!
+    <br/>
+    You <em>have</em> to hurry up!
+    <br/>
+    <span style="color:rgb(17, 131, 2)">
+        To check out our new arrivals
+    </span>, <a href="#mytable1">click here</a>
+    </p>
+</div>
+    <hr width="50%"/>
+        <br/>
+        <b>This is a bold line</b>
+        <br/>
+        <i>This is in italics</i>
+        <br/>
+        <u>This is an underlined line</u>
+        <br/>
+        <br/>
+
+    <hr width="50%"/>
+    <pre><!--preformatted text i-->
+        <h3>Pre-formatted text:</h3>
+
+        Satan, being thus confined to a vagabond, wandering, unsettled condition
+
+        is without any certain abode;
+
+        for though he has, in consequence of his angelic nature
+        
+        a kind of empire in the liquid waste or air
+        
+        yet this is certainly part of his <strong>punishment</strong>, that he is . . . without any fixed place, or space
+        
+        allowed him to rest the sole of his foot upon.
+
+    </pre>
+    <hr width="50%"/><br/>
+    <div id="mytable1" align="center">
+        <table style="width:30%" border=10 cellspacing=6 cellpadding=20 bgcolor="brown"> 
+            <caption>New Arrivals at our Bookstore:</caption>
+                <tr>
+                    <th>Sl no.</th>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Harry Potter Series</td>
+                    <td>J.K. Rowling</td>
+                    <td>$250</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Cursed Child</td>
+                    <td>J.K. Rowling</td>
+                    <td>$35</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Pride & Prejudice</td>
+                    <td>Jane Austen</td>
+                    <td>$20</td>
+                </tr>
+        </table>
+        <br/>
+    </div>
+
+      <hr width="50%"/>
+
+    <h3>Lists:</h3>
+    <h4>Ordered List:</h4>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+    <h4>Unordered List:</h4>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+    <h4>Definition List:</h4>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- the fuel to my soul</dd>
+            <dt>Tea</dt>
+            <dd>- 369339 times a day</dd>
+            <dt>Milk</dt>
+            <dd>- this drink is Legen-waitForIt-dairy</dd>
+        </dl>
+
+    <h4>Nested List:</h4>
+        <ol>
+            <li>Coffee</li>
+            <ul>
+                <li>Capaccuino</li>
+                <li>Latte</li>
+                <li>Espresso</li>
+            </ul>
+            <li>Tea</li>
+            <ul>
+                <li>Black tea</li>
+                <li>Chamomile tea</li>
+                <li>Lemon tea</li>
+            </ul>
+            <li>Milk</li>
+            
+        </ol>
+        
+    
+    <hr width="50%"/>
+    <center>
+    <frameset cols = "200, *">
+        <frame src = "https://salonibanerjee.github.io" name = "pg1" />        
+    </frameset> 
+
+    <h3>Frame:</h3>
+    <iframe src="https://salonibanerjee.github.io" title="myport"></iframe>
+    
+    <hr width="50%"/>
+    <h3>Mapped Image:</h3>
+    <img style="opacity: 0.5" src="abc.jpg" alt="abc" usemap="#mymap" width="30%" height="auto">
+
+    <map name="mymap">
+        <area shape="rect" coords="34,44,270,350" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
+        <area shape="rect" coords="290,172,333,250" alt="Tea" href="http://en.wikipedia.org/wiki/Tea">
+        <area shape="circle" coords="337,300,44" alt="Milk" href="http://en.wikipedia.org/wiki/Milk">
+    </map>
+    </center>
+    <hr width="50%"/>
+    <br/>
+    <center>
+        To reach us in same tab, <a href="myform1.html" target="">click here</a>
+        <br/><br/>
+        To reach us in new tab, <a href="myform1.html" target="_blank">click here</a>  <!--opens in new tab-->
+        <br/><br/>
+    </center>
+    
+<hr/><br/><br/>
+    <div class="div2" id="second">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+
+<hr/><br/><br/>
+<div class="div3" id="third">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+<hr/><br/><br/>
+<div class="div4" id="fourth">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+
+<hr/><br/><br/>
+<div class="div5" id="fifth">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+
+<hr/><br/><br/>
+<div class="div6" id="sixth">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+
+<hr/><br/><br/>
+<div class="div7" id="seventh">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</div>
+</body>
+
+</html>
